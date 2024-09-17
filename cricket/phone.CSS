@@ -1,0 +1,41 @@
+            /*body1*/
+            
+            #body1 {
+                flex-direction: column;
+            }
+            /* world cup*/
+            
+            #World-cup {
+                padding: 3px 8px;
+            }
+            
+            #World-cup ::before {
+                height: 300px;
+            }
+            
+            #World-cup p {
+                font-size: 13px;
+            }
+            /*1983-world-cup*/
+            
+            #world-cup-1983 {
+                flex-direction: column;
+            }
+            /*2011-world-cup*/
+            
+            #world-cup-2011 {
+                flex-direction: column;
+            }
+            
+            world-cup-2011 {
+                flex-direction: column;
+            }
+            
+            world-cup-2011 {
+                flex-direction: column;
+            }
+            /*Utility classes*/
+            
+            .h-primary {
+                font-size: 90px;
+            }

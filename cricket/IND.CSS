@@ -1,0 +1,226 @@
+                        * {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        html {
+                            scroll-behavior: smooth;
+                        }
+                        
+                        #body1 {
+                            display: flex;
+                            align-items: center;
+                            position: sticky;
+                            top: 0px;
+                        }
+                        
+                        #logo {
+                            margin: 10px 34px;
+                        }
+                        
+                        #logo img {
+                            height: 69px;
+                            margin: 3px 6px;
+                        }
+                        
+                        #body1 ul {
+                            display: flex;
+                        }
+                        
+                        #body1::before {
+                            content: "";
+                            background-color: black;
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            height: 100%;
+                            width: 100%;
+                            z-index: -1;
+                            opacity: 0.4;
+                        }
+                        
+                        #body1 li a {
+                            list-style: noun;
+                            font-size: 1.3rem;
+                        }
+                        
+                        #body1 ul li a {
+                            color: white;
+                            display: block;
+                            padding: 3px 22px;
+                            border-radius: 20px;
+                            text-decoration: none;
+                        }
+                        
+                        #body1 ul li a:hover {
+                            color: black;
+                            background-color: white;
+                        }
+                        /* world cup*/
+                        
+                        #World-cup {
+                            display: flex;
+                            flex-direction: column;
+                            padding: 3px 120px;
+                            height: 790px;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        
+                        #World-cup::before {
+                            content: "";
+                            position: absolute;
+                            background: url('../images/ICC-World-Cup-2023-–-The-Venues-You-Must-Know-About[226].jpg') no-repeat center center/cover;
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            height: 100%;
+                            width: 120%;
+                            z-index: -1;
+                            opacity: 0.89;
+                        }
+                        
+                        #World-cup h1 {
+                            color: black;
+                            text-align: center;
+                        }
+                        
+                        #World-cup p {
+                            color: hsl(0, 0%, 100%);
+                            text-align: center;
+                            height: 300px;
+                        }
+                        
+                        #World-cup a {
+                            height: 8080px;
+                        }
+                        /*1983-world-cup*/
+                        
+                        #world-cup-1983 {
+                            margin: 34px;
+                            display: flex;
+                        }
+                        
+                        #jk img {
+                            height: 100px;
+                            margin: auto;
+                            display: block;
+                        }
+                        
+                        #pk {
+                            color: black;
+                            text-align: center;
+                        }
+                        
+                        #world-cup-1983 .box {
+                            border: 2px solid #24df6c;
+                            padding: 34px;
+                            margin: 3px 6px;
+                            border-radius: 28px;
+                            background: 2px #2bace4;
+                        }
+                        
+                        #world-cup-1983 .box img {
+                            height: 200px;
+                            margin: auto;
+                            display: block;
+                        }
+                        /*2011-world-cup*/
+                        
+                        #world-cup-2011 {
+                            margin: 34px;
+                            display: flex;
+                        }
+                        
+                        #jy img {
+                            height: 100px;
+                            margin: auto;
+                            display: block;
+                        }
+                        
+                        #world-cup-2011 .box {
+                            border: 2px solid #24df6c;
+                            padding: 34px;
+                            margin: 3px 6px;
+                            border-radius: 28px;
+                            background: 2px #2bace4;
+                        }
+                        
+                        #world-cup-2011 .box img {
+                            height: 200px;
+                            margin: auto;
+                            display: block;
+                        }
+                        /* contact */
+                        
+                        #contact {
+                            position: relative;
+                        }
+                        
+                        #contact h1 {
+                            text-align: center;
+                        }
+                        
+                        #contact::before {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            z-index: -1;
+                            opacity: 0.7;
+                            background: url('../images/website-internet-contact-us-page-260nw-1056676853_1.jpg') no-repeat center center/cover;
+                        }
+                        
+                        #contact-box {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding-bottom: 34px;
+                        }
+                        
+                        #contact-box textarea {
+                            width: 100%;
+                            padding: 0.5px;
+                            border-radius: 9px;
+                        }
+                        
+                        #contact-box form {
+                            width: 40%;
+                        }
+                        
+                        #contact-box label {
+                            font-size: 1.2rem;
+                            font-family: 'Bree Serif', serif;
+                        }
+                        
+                        #contact-box button {
+                            font-size: 15px;
+                            border-radius: 9px;
+                        }
+                        /*Utility class*/
+                        
+                        .h-primary {
+                            font-size: 3.8px;
+                            padding: 12px;
+                            height: 900px;
+                        }
+                        
+                        .h-secondary {
+                            font-size: 2.8px;
+                            padding: 12px;
+                        }
+                        
+                        .btn {
+                            padding: 6px 20px;
+                            border: 2px solid white;
+                            background-color: brown;
+                            color: white;
+                            margin: 17px;
+                            font-size: 1.5ren;
+                            border-radius: 10px;
+                            cursor: pointer;
+                        }
+                        
+                        .center {
+                            text-align: center;
+                        }
